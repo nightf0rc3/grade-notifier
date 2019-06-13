@@ -1,0 +1,10 @@
+{
+    "user": "",
+    "password": "",
+    "interval": 30,
+    "botToken": "",
+    "telegramUserId": "",
+    "loginUrl": "",
+    "activityStart": 7,
+    "activityEnd": 23
+}

@@ -1,0 +1,15 @@
+{
+  "name": "grade-notifier",
+  "version": "1.0.0",
+  "description": "Notifies a user about new grades on the university portal",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "katercolin@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.30.0",
+    "zombie": "^6.1.4"
+  }
+}
