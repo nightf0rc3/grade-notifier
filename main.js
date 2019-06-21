@@ -5,7 +5,7 @@ const config = require('./config.json');
 const bot = new telegramBot(config.botToken, { polling: true });
 
 const gradeMap = [];
-const initialRun = true;
+let initialRun = true;
 
 bot.on('message', (msg) => {
     console.log('[+] Message from ' + msg.chat.id);
