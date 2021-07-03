@@ -4,7 +4,8 @@
     "interval": 30,
     "botToken": "",
     "telegramUserId": "",
-    "loginUrl": "",
+    "loginUrl": "https://cas.uni-mannheim.de/cas/login?service=https%3A%2F%2Fportal2.uni-mannheim.de/portal2/rds%3Fstate%3Duser%26type%3D1",
+    "examUrl": "https://portal2.uni-mannheim.de/portal2/rds?state=change&type=1&moduleParameter=studyPOSMenu&nextdir=change&next=menu.vm&subdir=applications&xml=menu&purge=y&navigationPosition=hisinoneMeinStudium%2CstudyPOSMenu&recordRequest=true&breadcrumb=studyPOSMenu&subitem=studyPOSMenu&topitem=hisinoneMeinStudium",
     "activityStart": 7,
     "activityEnd": 23
 }

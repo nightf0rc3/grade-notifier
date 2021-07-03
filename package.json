@@ -9,7 +9,8 @@
   "author": "katercolin@gmail.com",
   "license": "ISC",
   "dependencies": {
+    "lodash": "^4.17.21",
     "node-telegram-bot-api": "^0.30.0",
-    "zombie": "^6.1.4"
+    "puppeteer": "^10.1.0"
   }
 }
