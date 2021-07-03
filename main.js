@@ -17,7 +17,7 @@ async function navigateByClick(page, selector) {
 
 async function checkAndNotify() {
   console.log('[*] Checking for new grades...');
-  const browser = await puppeteer.launch({headless: false});
+  const browser = await puppeteer.launch();
   const page = await browser.newPage();
   await page.goto(config.loginUrl);
   await page.type('#username', config.user);
