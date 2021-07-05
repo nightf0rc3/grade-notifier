@@ -32,6 +32,7 @@ async function checkAndNotify() {
       return this.innerText;
     }).get()
   `);
+  browser.close();
   const examResults = _.chunk(rows, 6);
   examResults.forEach((ex) => {
     const examName = ex[0];
